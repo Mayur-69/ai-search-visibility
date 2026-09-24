@@ -1,0 +1,43 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/aiv.db
+data/cache/
+data/labels/*.csv
+!data/labels/.gitkeep
+
+# Playwright
+ms-playwright/
+
+# Model outputs
+data/model_results.json
+data/metrics.json
+RESULTS.md
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

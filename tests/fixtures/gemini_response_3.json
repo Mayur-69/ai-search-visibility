@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Comparing **Otter.ai vs Fireflies.ai vs Fathom** for sales calls: Otter.ai leads in transcription accuracy and real-time collaboration features. Fireflies.ai wins on CRM automation with 50+ integrations. Fathom is best for free usage with unlimited recordings. For sales teams, Fireflies.ai's auto-logging to Salesforce and deal insights justify the cost. Otter.ai's speaker identification and searchable transcripts help with coaching."
+          }
+        ],
+        "role": "model"
+      },
+      "groundingMetadata": {
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://www.g2.com/compare/fireflies-ai-vs-otter-ai-vs-fathom",
+              "title": "Fireflies.ai vs Otter.ai vs Fathom Comparison | G2"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://blog.close.com/fireflies-vs-otter/",
+              "title": "Fireflies vs Otter: Which AI Notetaker Wins? | Close Blog"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 42,
+    "candidatesTokenCount": 138,
+    "totalTokenCount": 180
+  }
+}

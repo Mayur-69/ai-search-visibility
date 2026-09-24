@@ -1,0 +1,8 @@
+{
+  "mentions": [
+    {"brand": "Otter.ai", "rank": 1, "sentiment": "positive"},
+    {"brand": "Fireflies.ai", "rank": 2, "sentiment": "positive"},
+    {"brand": "Gong.io", "rank": 3, "sentiment": "positive"},
+    {"brand": "Fathom", "rank": 4, "sentiment": "neutral"}
+  ]
+}

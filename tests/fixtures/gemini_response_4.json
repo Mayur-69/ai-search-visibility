@@ -1,0 +1,41 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "For Kubernetes incident management, **PagerDuty**, **FireHydrant**, and **Incident.io** are top choices. PagerDuty offers enterprise-grade reliability with 700+ integrations. FireHydrant excels at runbook automation and Kubernetes-native workflows. Incident.io provides modern Slack-first incident response with great UX. Grafana OnCall is cost-effective if you already use Grafana stack."
+          }
+        ],
+        "role": "model"
+      },
+      "groundingMetadata": {
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://www.g2.com/categories/incident-management-software",
+              "title": "Best Incident Management Software 2024 | G2"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://firehydrant.com/incident-management/kubernetes/",
+              "title": "Kubernetes Incident Management | FireHydrant"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://incident.io/kubernetes",
+              "title": "Incident.io for Kubernetes Teams"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 125,
+    "totalTokenCount": 165
+  }
+}

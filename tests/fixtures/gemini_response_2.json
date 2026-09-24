@@ -1,0 +1,47 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Top alternatives to Otter.ai include **Fireflies.ai** for better CRM integration, **Fathom** for free unlimited transcription, **tl;dv** for async video summaries, and **Avoma** for conversation intelligence. Fireflies.ai stands out with native Salesforce and HubSpot sync. Fathom offers generous free tier with no time limits. tl;dv excels at timestamped video clips for async teams."
+          }
+        ],
+        "role": "model"
+      },
+      "groundingMetadata": {
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://www.g2.com/products/otter-ai/competitors/alternatives",
+              "title": "Otter.ai Alternatives & Competitors 2024 | G2"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://fireflies.ai/alternatives",
+              "title": "Otter.ai Alternatives | Fireflies.ai"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://fathom.video/pricing",
+              "title": "Fathom Pricing - Free Meeting Transcription"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://tldv.io/alternatives",
+              "title": "tl;dv vs Otter.ai Comparison"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 38,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 180
+  }
+}

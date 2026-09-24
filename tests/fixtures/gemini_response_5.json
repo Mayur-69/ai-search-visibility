@@ -1,0 +1,41 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Best cold email tools for B2B SaaS in 2024: **Instantly.ai** for unlimited sending accounts and built-in warmup, **Smartlead.ai** for high-volume sending with master inbox, **Lemlist** for advanced personalization with liquid syntax, and **Apollo.io** for all-in-one contact data + sequencing. Instantly.ai leads on deliverability with 1000+ warmup pool. Smartlead.ai offers best price per email at scale. Apollo.io wins if you need contact database + outreach in one platform."
+          }
+        ],
+        "role": "model"
+      },
+      "groundingMetadata": {
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://www.g2.com/categories/cold-email-software",
+              "title": "Best Cold Email Software 2024 | G2"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://instantly.ai/features",
+              "title": "Instantly.ai Features - Unlimited Email Accounts"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://smartlead.ai/pricing",
+              "title": "Smartlead Pricing - High Volume Cold Email"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 44,
+    "candidatesTokenCount": 148,
+    "totalTokenCount": 192
+  }
+}

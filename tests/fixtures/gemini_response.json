@@ -1,0 +1,87 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "For sales teams in 2024, the best AI meeting note takers are **Otter.ai**, **Fireflies.ai**, and **Gong.io**. Otter.ai offers excellent real-time transcription and integrates well with Zoom and Google Meet. Fireflies.ai provides strong CRM integration with Salesforce and HubSpot. Gong.io is the premium choice for revenue intelligence with advanced analytics. Fathom is a great free alternative for basic transcription needs."
+          }
+        ],
+        "role": "model"
+      },
+      "groundingMetadata": {
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://www.g2.com/categories/meeting-minutes-software",
+              "title": "Best Meeting Minutes Software in 2024 | G2"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://www.capterra.com/meeting-minutes-software/",
+              "title": "Best Meeting Minutes Software 2024 | Capterra"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://blog.fireflies.ai/best-ai-meeting-assistant/",
+              "title": "Best AI Meeting Assistant Tools 2024 | Fireflies Blog"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://otter.ai/meeting-notes",
+              "title": "Otter.ai - AI Meeting Notes & Transcription"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://www.gong.io/platform/conversation-intelligence/",
+              "title": "Gong Revenue Intelligence Platform"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 56,
+              "endIndex": 65,
+              "text": "Otter.ai"
+            },
+            "groundingChunkIndices": [3]
+          },
+          {
+            "segment": {
+              "startIndex": 67,
+              "endIndex": 79,
+              "text": "Fireflies.ai"
+            },
+            "groundingChunkIndices": [2]
+          },
+          {
+            "segment": {
+              "startIndex": 84,
+              "endIndex": 91,
+              "text": "Gong.io"
+            },
+            "groundingChunkIndices": [4]
+          },
+          {
+            "segment": {
+              "startIndex": 245,
+              "endIndex": 251,
+              "text": "Fathom"
+            },
+            "groundingChunkIndices": [0]
+          }
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 45,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 201
+  }
+}
