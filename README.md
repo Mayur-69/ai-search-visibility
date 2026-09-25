@@ -104,20 +104,24 @@ config/
 - Brave Search API key (for search results)
 - Playwright Chromium (for JS-rendered pages)
 
-## Key Findings (from mock data)
+## Key Findings
 
-- **Content features are highly predictive** (ROC-AUC 0.92) - word count, headings, JSON-LD, domain type, prompt similarity
-- **Search rank alone is not predictive** (ROC-AUC 0.50) with current mock data
-- **Top cited domains**: G2, Capterra, vendor blogs
-- **Share of voice**: Evenly distributed among top 4 brands in test data
+- **Content features are highly predictive** (ROC-AUC 0.95) - word count, h2/h3 headings, prompt similarity, JSON-LD presence
+- **Search rank alone is not predictive** (ROC-AUC 0.50) - search position alone doesn't determine citation likelihood
+- **Combined model performs best** (ROC-AUC 0.96) - search rank + content features complementary
+- **Top cited domains**: g2.com (10 citations), blog.close.com (2), blog.fireflies.ai (2)
+- **Share of voice**: Fathom, Fireflies.ai, Gong.io, Otter.ai each mentioned in 100% of AI meeting note-taker responses
+- **Prompt similarity is a top feature** - semantic similarity between prompt and page content strongly predicts citation
 
 ## Limitations
 
 - Correlation ≠ Causation
 - Single model (logistic regression)
-- Small sample size (test data)
-- Single LLM (Gemini)
-- Mock data for search/scraping
+- Small sample size (5 LLM responses, 150 prompts, 36 labeled samples)
+- Single LLM (Gemini with Google Search grounding)
+- No Brave Search API key used (citation URLs only)
+- Single temporal snapshot (data collected at one point in time)
+- Only 3 B2B SaaS categories tested
 
 ## License
 
